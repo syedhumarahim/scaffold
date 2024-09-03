@@ -12,7 +12,7 @@ def get_driver_with_highest_avg_speed(car_name):
         highest_avg_speed_row = car_df.loc[car_df['avg_speed'].idxmax()]
         driver_name = highest_avg_speed_row['Driver']
         lap_number = highest_avg_speed_row['Lap']
-        speed =  highest_avg_speed_row['avg_speed']
+        top_speed =  highest_avg_speed_row['avg_speed']
         return driver_name, lap_number, speed
 
 
