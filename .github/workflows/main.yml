@@ -15,6 +15,9 @@ jobs:
     - name: Run the main.py file
       run: |
         make run
+    - name: Lint with Pylint
+      run: |
+        make lint
     - name: Test the main.py file
       run: |
         make test
