@@ -17,7 +17,7 @@ This project analyzes the fastest lap data from the 2024 Italian Grand Prix. The
     - Takes the name of a car/team as input.
     - Filters the data to find the driver with the highest average speed for that team.
     - Returns the driver's name, the lap number, and the average speed.
-  - **User Interaction**: The script prompts the user to enter a team name and displays the corresponding fastest lap details.
+  - **User Interaction**: The script prompts the user to enter a team name and displays the corresponding fastest lap details. For the CI/CD pipeline the input is hardcoded. However, it can be taken as an input from the user.
 
 ### `test_main.py`
 
