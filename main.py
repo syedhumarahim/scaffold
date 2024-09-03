@@ -13,7 +13,7 @@ def get_driver_with_highest_avg_speed(car_name):
         driver_name = highest_avg_speed_row['Driver']
         lap_number = highest_avg_speed_row['Lap']
         top_speed =  highest_avg_speed_row['avg_speed']
-        return driver_name, lap_number, speed
+        return driver_name, lap_number, top_speed
 
 
 if __name__ == "__main__":
