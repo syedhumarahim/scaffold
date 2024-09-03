@@ -1,5 +1,5 @@
 # Scaffold
-This is the first Assignment for Data Engineering. 
+This is the first Assignment for Data Engineering on Scaffolding.
 
 # F1 Fastest Lap Analysis
 
