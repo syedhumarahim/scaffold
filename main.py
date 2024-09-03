@@ -17,9 +17,10 @@ def get_driver_with_highest_avg_speed(car_name):
 
 
 if __name__ == "__main__":
-    team_name = input("""Enter the team name out of the list['McLaren Mercedes', 'Mercedes', 'Red Bull Racing Honda RBPT',
-       'Aston Martin Aramco Mercedes', 'Ferrari', 'Haas Ferrari',
-       'Kick Sauber Ferrari', 'Williams Mercedes', 'Alpine Renault',
-       'RB Honda RBPT']:""")
+    # team_name = input("""Enter the team name out of the list['McLaren Mercedes', 'Mercedes', 'Red Bull Racing Honda RBPT',
+    #    'Aston Martin Aramco Mercedes', 'Ferrari', 'Haas Ferrari',
+    #    'Kick Sauber Ferrari', 'Williams Mercedes', 'Alpine Renault',
+    #    'RB Honda RBPT']:""")
+    team_name = "Mercedes"
     driver, lap, speed = get_driver_with_highest_avg_speed(team_name)
     print(f"The fastest lap for {team_name} was set by {driver} on lap {lap} with speed of {speed}.")

@@ -1,0 +1,20 @@
+name: Python 3.11.9
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.11.9
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Run the main.py file
+      run: |
+        make run
+    - name: Test the main.py file
+      run: |
+        make test
