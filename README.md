@@ -1,3 +1,5 @@
+[![Python 3.11.9](https://github.com/syedhumarahim/scaffold/actions/workflows/main.yml/badge.svg)](https://github.com/syedhumarahim/scaffold/actions/workflows/main.yml)
+
 # Scaffold
 This is the first Assignment for Data Engineering on Scaffolding.
 
