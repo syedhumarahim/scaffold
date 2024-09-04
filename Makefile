@@ -10,5 +10,7 @@ lint:
 test:
 	python3 test_main.py 
 
-all: install run test
+cp C:/Users/ss1516/Downloads/Bob_PythonTemplate1-main/Bob_PythonTemplate1-main/.devcontainer .
+
+all: install run test lint
 
